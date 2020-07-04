@@ -52,9 +52,9 @@ const baseConfig = {
 
     
 const customWebComponents = Object.assign({}, baseConfig, {
-    name: 'customWebComponents',
+    name: 'Leaflet Map Web Component',
     entry: {
-        MapComponents: './src/index.js',
+        "Leaflet-Map-Component": './src/index.js',
     }
 });
 
