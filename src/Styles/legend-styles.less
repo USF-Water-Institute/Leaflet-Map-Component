@@ -1,0 +1,53 @@
+.legend-container {
+  background: rgba(250, 250, 250, 0.85);
+  padding: 5px 5px;
+  border-radius: 4px;
+  min-width:15px;
+  min-height:15px;
+  cursor:pointer;
+ // box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+ transition: all 0.1s ease-in;
+
+  &:before{
+  content: " ";
+  background:url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAwIDEwMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PHBhdGggZD0iTTM1LjcsMjcuMmg1OC41YzEsMCwxLjgtMC44LDEuOC0xLjhzLTAuOC0xLjgtMS44LTEuOEgzNS43Yy0xLDAtMS44LDAuOC0xLjgsMS44UzM0LjcsMjcuMiwzNS43LDI3LjJ6Ij48L3BhdGg+PHBhdGggZD0iTTk0LjEsNDcuM0gzNS43Yy0xLDAtMS44LDAuOC0xLjgsMS44czAuOCwxLjgsMS44LDEuOGg1OC41YzEsMCwxLjgtMC44LDEuOC0xLjhTOTUuMSw0Ny4zLDk0LjEsNDcuM3oiPjwvcGF0aD48cGF0aCBkPSJNOTQuMSw3MC45SDM1LjdjLTEsMC0xLjgsMC44LTEuOCwxLjhzMC44LDEuOCwxLjgsMS44aDU4LjVjMSwwLDEuOC0wLjgsMS44LTEuOFM5NS4xLDcwLjksOTQuMSw3MC45eiI+PC9wYXRoPjxwYXRoIGQ9Ik0yMi43LDM5LjdINy41Yy0xLDAtMS44LDAuOC0xLjgsMS44djE1LjJjMCwxLDAuOCwxLjgsMS44LDEuOGgxNS4yYzEsMCwxLjgtMC44LDEuOC0xLjhWNDEuNSAgIEMyNC40LDQwLjUsMjMuNiwzOS43LDIyLjcsMzkuN3oiPjwvcGF0aD48cGF0aCBkPSJNNy4xLDM0aDE1LjZjMC42LDAsMS4yLTAuMywxLjUtMC45czAuMy0xLjIsMC0xLjhsLTcuOC0xMy41Yy0wLjMtMC41LTAuOS0wLjktMS41LTAuOXMtMS4yLDAuMy0xLjUsMC45TDUuNiwzMS40ICAgYy0wLjMsMC41LTAuMywxLjIsMCwxLjhTNi41LDM0LDcuMSwzNHoiPjwvcGF0aD48cGF0aCBkPSJNMTUuNCw2Mi42Yy01LjUsMC0xMCw0LjUtMTAsMTBzNC41LDEwLDEwLDEwczEwLTQuNSwxMC0xMFMyMC45LDYyLjYsMTUuNCw2Mi42eiI+PC9wYXRoPjwvZz48L3N2Zz4=);
+  width:20px;
+  height:20px;
+  display:block;
+  background-size:contain;
+  overflow:hidden;
+  }
+  .legend-inner{
+    display:none;
+  }
+
+  h4,h5{
+    margin-top:10px;
+    margin-bottom:1px;
+  }
+
+  &.open{
+    max-height:50vh;
+    overflow-y: scroll;
+    &:before{
+      content:"";
+      display:none;
+    }
+    border-radius: 10px;
+     .legend-inner{
+       display:block;
+     }
+  }
+}
+
+.legend-marker-list{
+  list-style:none;
+  padding-left:5px;
+  margin-top:0px;
+}
+
+img.legend-marker-icon{
+  max-width:16px;
+  width:auto;
+  height:auto;
+}
