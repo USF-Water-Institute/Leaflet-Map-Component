@@ -24,7 +24,7 @@ Debug build task builds the library to an un-minified version with helpful debug
 ```
 
 ### Using Releases
-Current release is [1.0.0](./releases/tag/v1.0.0)
+Current release is [1.0.0](https://github.com/USF-Water-Institute/Leaflet-Map-Component/releases/tag/v1.0.0)
 
 
 ### NPM Package
