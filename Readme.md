@@ -61,3 +61,12 @@ Basic mockup is found [here](./Mockups/webcomponentstest.html). More detailed mo
     - `targetProperty` and `targetValue` sets conditional display of certain marker icons. `targetProperty` refers to the GeoJSON/ Feature Layer property to target for the conditional check for the `targetValue` value. Currently only equal to conditional check is supported. No other conditional checks are supported at this time.
 
 *More detailed documentation coming soon*
+
+
+## Contributions
+
+Currently this repository is not set up to accept contributions. 
+
+## Issues
+
+Currently this repository is not set up to receive and/or review Issues and bugs. 
