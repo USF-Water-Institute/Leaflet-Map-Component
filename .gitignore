@@ -84,7 +84,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-#dist
+dist
 
 # Gatsby files
 .cache/
@@ -124,7 +124,7 @@ out
 .vscode/
 
 # dist folder
-#dist/*
+dist/*
 
 # webpack build stats
 stats.json
