@@ -51,7 +51,7 @@ Basic mockup is found [here](./Mockups/webcomponentstest.html). More detailed mo
 - **GeoJSON Layer**(`<map-geojson-layer>`)
     - Similar attributes to Feature layer. `url` attribute points to the URL for a resource that returns a valid GeoJSON.
 
-- **Info Template** (`<map-info-templat>`)
+- **Info Template** (`<map-info-template>`)
     - This block style template sets the content for popups/info box on click. Uses `{PROPERTY}` syntax for templating.
     
 - **Map Marker** (`<map-marker>`)
