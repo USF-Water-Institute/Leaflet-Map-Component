@@ -51,8 +51,8 @@ export const GetGeoJSONLayer = (url, markerIcons, hoverProperty = '') => {
                     }
                 });
             }
-            return geoJSON({
-                geoJsonObject,
+            return geoJSON(
+                geoJsonObject,{
                 pointToLayer(feature, latlng) {
                     // eslint-disable-next-line prefer-destructuring
 
