@@ -6,6 +6,8 @@ import {
 export const getBaseMaps = () => {
     const imageryLabels = basemapLayer('ImageryLabels');
     const imagery = basemapLayer('ImageryFirefly');
+    const gray = basemapLayer('Gray');
+    const grayLabels = basemapLayer('GrayLabels');
     const streets = basemapLayer('Streets');
     const topo = basemapLayer('Topographic');
 
@@ -13,6 +15,7 @@ export const getBaseMaps = () => {
         Streets: streets,
         Aerials: imagery,
         'Aerial with labels': layerGroup([imagery, imageryLabels]),
+        'Gray': layerGroup([gray, grayLabels]),
         Topographic: topo
     };
 
